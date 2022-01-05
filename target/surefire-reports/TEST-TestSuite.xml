@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="16.583" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="K:\Selenium\Projects\Cucumber"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="K:\Selenium\Projects\Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\nisha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\nisha\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16658323738107005880.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/nisha/Documents/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/nisha/Documents/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\nisha\Documents\eclipse\apache-maven-3.8.4\bin;C:\Program Files\Git\cmd;C:\Users\nisha\AppData\Local\Microsoft\WindowsApps;;C:\Users\nisha\Documents\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\nisha"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="nisha"/>
+    <property name="java.class.path" value="C:\Users\nisha\Documents\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.18.1.20211011-2139\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="K:\Selenium\Projects\Cucumber\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runScenario" classname="runner.RunCuke" time="16.583"/>
+  <testcase name="runScenario" classname="runner.RunCuke" time="15.739">
+    <failure message="expected [New Bmw 1 Series Under 10000 for Sale ACT | carsguide] but found [New Bmw 1 Series Under 10000 for Sale ACT | carsguidee]" type="java.lang.AssertionError">java.lang.AssertionError: expected [New Bmw 1 Series Under 10000 for Sale ACT | carsguide] but found [New Bmw 1 Series Under 10000 for Sale ACT | carsguidee]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at steps.SearchNewCars.the_page_title_should_be_from_the_given_sheetname_and_row_number(SearchNewCars.java:92)
+	at ✽.The page title should be from the given sheetname "searchNewCars" and row number 0(file:///K:/Selenium/Projects/Cucumber/src/test/resources/features/SearchNewCars.feature:14)
+</failure>
+    <system-out><![CDATA[
+Scenario: Searching for new car with excel data                                          &amp#27;[90m# src/test/resources/features/SearchNewCars.feature:18&amp#27;[0m
+Before
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mOpen the page &amp#27;[0m&amp#27;[32m&amp#27;[1m"https://www.carsguide.com.au/"&amp#27;[0m                                    &amp#27;[90m# steps.SearchNewCars.open_the_page(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mnavigate to the menu buy+sell&amp#27;[0m                                                     &amp#27;[90m# steps.SearchNewCars.navigate_to_the_menu_buy_sell()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mchoose the new car seach from menu&amp#27;[0m                                                 &amp#27;[90m# steps.SearchNewCars.choose_the_new_car_seach_from_menu()&amp#27;[0m
+The make of the car is : BMW
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mchoose make from the given sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"searchNewCars"&amp#27;[0m&amp#27;[32m and row number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m              &amp#27;[90m# steps.SearchNewCars.choose_make_from_the_given_sheetname_and_row_number(java.lang.String,java.lang.Integer)&amp#27;[0m
+The make of the car is : 1 Series
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mchoose model from the given sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"searchNewCars"&amp#27;[0m&amp#27;[32m and row number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m             &amp#27;[90m# steps.SearchNewCars.choose_model_from_the_given_sheetname_and_row_number(java.lang.String,java.lang.Integer)&amp#27;[0m
+The make of the car is : ACT - All
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mchoose location from the given sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"searchNewCars"&amp#27;[0m&amp#27;[32m and row number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m          &amp#27;[90m# steps.SearchNewCars.choose_location_from_the_given_sheetname_and_row_number(java.lang.String,java.lang.Integer)&amp#27;[0m
+The make of the car is : $10,000
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mchoose price from the given sheetname &amp#27;[0m&amp#27;[32m&amp#27;[1m"searchNewCars"&amp#27;[0m&amp#27;[32m and row number &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m             &amp#27;[90m# steps.SearchNewCars.choose_price_from_the_given_sheetname_and_row_number(java.lang.String,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Find_My_Next_Car button&amp#27;[0m                                                   &amp#27;[90m# steps.SearchCarsSteps.click_on_find_my_next_car_button()&amp#27;[0m
+Cars List Found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should see list of searched cars&amp#27;[0m                                                &amp#27;[90m# steps.SearchCarsSteps.i_should_see_list_of_searched_cars()&amp#27;[0m
+The make of the car is : New Bmw 1 Series Under 10000 for Sale ACT | carsguidee
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mThe page title should be from the given sheetname &amp#27;[0m&amp#27;[31m&amp#27;[1m"searchNewCars"&amp#27;[0m&amp#27;[31m and row number &amp#27;[0m&amp#27;[31m&amp#27;[1m0&amp#27;[0m &amp#27;[90m# steps.SearchNewCars.the_page_title_should_be_from_the_given_sheetname_and_row_number(java.lang.String,java.lang.Integer)&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: expected [New Bmw 1 Series Under 10000 for Sale ACT | carsguide] but found [New Bmw 1 Series Under 10000 for Sale ACT | carsguidee]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at steps.SearchNewCars.the_page_title_should_be_from_the_given_sheetname_and_row_number(SearchNewCars.java:92)
+	at âœ½.The page title should be from the given sheetname "searchNewCars" and row number 0(file:///K:/Selenium/Projects/Cucumber/src/test/resources/features/SearchNewCars.feature:14)
+&amp#27;[0m
+true
+
+    Embedding ScreenShot For the failure [image/png 324249 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 9727
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 30, 2021 1:03:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Cleaning up unclosed ZipFile for archive K:\Selenium\Projects\Cucumber\src\test\resources\excelData.xlsx
+Cleaning up unclosed ZipFile for archive K:\Selenium\Projects\Cucumber\src\test\resources\excelData.xlsx
+Cleaning up unclosed ZipFile for archive K:\Selenium\Projects\Cucumber\src\test\resources\excelData.xlsx
+Cleaning up unclosed ZipFile for archive K:\Selenium\Projects\Cucumber\src\test\resources\excelData.xlsx
+Cleaning up unclosed ZipFile for archive K:\Selenium\Projects\Cucumber\src\test\resources\excelData.xlsx
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="runner.RunCuke" time="18.663"/>
+  <testcase name="runScenario" classname="runner.RunCuke" time="11.234"/>
+</testsuite>

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 67.852 sec <<< FAILURE! - in TestSuite
+runScenario(runner.RunCuke)  Time elapsed: 15.739 sec  <<< FAILURE!
+java.lang.AssertionError: expected [New Bmw 1 Series Under 10000 for Sale ACT | carsguide] but found [New Bmw 1 Series Under 10000 for Sale ACT | carsguidee]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at steps.SearchNewCars.the_page_title_should_be_from_the_given_sheetname_and_row_number(SearchNewCars.java:92)
+	at ?.The page title should be from the given sheetname "searchNewCars" and row number 0(file:///K:/Selenium/Projects/Cucumber/src/test/resources/features/SearchNewCars.feature:14)
+

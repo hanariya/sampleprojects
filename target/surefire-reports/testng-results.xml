@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-30T13:03:10 IST" name="Suite" finished-at="2021-12-30T13:04:18 IST" duration-ms="67456">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@6646153]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-12-30T13:03:10 IST" name="Test" finished-at="2021-12-30T13:04:18 IST" duration-ms="67456">
+      <class name="runner.RunCuke">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:03:10 IST" name="setUpClass" finished-at="2021-12-30T13:03:11 IST" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b0525a8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:03:11 IST" name="setup" finished-at="2021-12-30T13:03:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:03:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T13:03:28 IST" duration-ms="16583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Search Cars Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Acceptance testing to validate search cars page is working fine]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:03:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T13:03:44 IST" duration-ms="15737" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching for new car with excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching for new cars]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [New Bmw 1 Series Under 10000 for Sale ACT | carsguide] but found [New Bmw 1 Series Under 10000 for Sale ACT | carsguidee]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [New Bmw 1 Series Under 10000 for Sale ACT | carsguide] but found [New Bmw 1 Series Under 10000 for Sale ACT | carsguidee]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at steps.SearchNewCars.the_page_title_should_be_from_the_given_sheetname_and_row_number(SearchNewCars.java:92)
+at ✽.The page title should be from the given sheetname "searchNewCars" and row number 0(file:///K:/Selenium/Projects/Cucumber/src/test/resources/features/SearchNewCars.feature:14)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:03:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T13:04:02 IST" duration-ms="18664" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching for new car with excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Searching for new cars]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:04:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T13:04:14 IST" duration-ms="11233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Search Cars Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Acceptance testing to validate search used cars page is working fine]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCuke@6646153]" started-at="2021-12-30T13:04:14 IST" name="tearDownClass" finished-at="2021-12-30T13:04:18 IST" duration-ms="4422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
